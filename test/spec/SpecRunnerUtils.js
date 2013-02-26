@@ -304,6 +304,7 @@ define(function (require, exports, module) {
 
         runs(function () {
             // begin loading project path
+//            _testWindow.brackets.app.showDeveloperTools();
             var result = _testWindow.brackets.test.ProjectManager.openProject(path);
             result.done(function () {
                 isReady = true;
